@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="10.26.1.165" id="9d6d0b77-0491-4a52-97ab-9788cc7311b5" port="22" nameFormat="DESCRIPTIVE" username="jdtu" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="10.26.1.165" id="2f1ef9e2-5818-45a4-b5d8-201b9204470e" port="22" customName="jdtu@10.26.1.165:22" nameFormat="CUSTOM" username="ypli" useOpenSSHConfig="true">
+        <option name="customName" value="jdtu@10.26.1.165:22" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

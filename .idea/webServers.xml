@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9963a8e0-c9ea-4860-9cc2-d4f92c444436" name="港中深ugra">
+        <fileTransfer rootFolder="/ugra/jdtu" accessType="SFTP" host="10.26.1.165" port="22" sshConfigId="9d6d0b77-0491-4a52-97ab-9788cc7311b5" sshConfig="jdtu@10.26.1.165:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="aecb8d38-5e78-4fba-82cd-02ba5f0afffd" name="港中深public">
+        <fileTransfer accessType="SFTP" host="10.26.1.165" port="22" sshConfigId="9d6d0b77-0491-4a52-97ab-9788cc7311b5" sshConfig="jdtu@10.26.1.165:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e17841df-560c-46e5-ae5c-8e84a94194a1" name="黎亚鹏public">
+        <fileTransfer accessType="SFTP" host="10.26.1.165" port="22" sshConfigId="2f1ef9e2-5818-45a4-b5d8-201b9204470e" sshConfig="jdtu@10.26.1.165:22">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

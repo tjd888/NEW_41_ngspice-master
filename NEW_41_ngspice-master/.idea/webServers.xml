@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="dd0b10dc-68ed-4aa7-a2c9-e1217d971c3f" name="港中深堡垒机5">
+        <fileTransfer rootFolder="/res/ypli" accessType="SFTP" host="10.26.1.165" port="22" sshConfigId="465cee14-7541-4dd2-8eb8-a016312e21f5" sshConfig="ypli@10.26.1.165:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+prefix=/res/ypli/Desktop/NEW_41_ngspice-master/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libngspice
+Description: General-purpose circuit simulator
+Version: 41+
+Libs: -L${libdir} -lngspice
+Cflags: -I${includedir}
+
